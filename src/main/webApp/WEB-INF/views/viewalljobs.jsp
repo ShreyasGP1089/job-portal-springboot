@@ -161,7 +161,7 @@
         <button type="submit" class="btn btn-outline-light">Search</button>
     </form>
 
-    <<c:if test="${not empty searchWarning}">
+    <c:if test="${not empty searchWarning}">
          <div class="alert alert-warning text-center">${searchWarning}</div>
      </c:if>
 
